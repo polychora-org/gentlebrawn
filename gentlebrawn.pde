@@ -41,8 +41,9 @@ void setup() {
   gantlebing.disableStyle(); // this kong has a circle face
 
   shapeMode(CENTER);
-  
-  textFont(loadFont("ComicSansMS"),24);
+
+  PFont comical = loadFont("Comic Sans MS");
+  textFont(comical,24);
 
   sebastian = loadImage("elgreco.png");
   sebastianHeight = height;
