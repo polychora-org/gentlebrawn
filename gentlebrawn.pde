@@ -1,6 +1,6 @@
 PShape gendurbrang, gantlebing;
 PImage sebastian;
-/* @pjs preload="elgreco.png,gantlebung.svg,gantlebungLater.svg"; */
+/* @pjs preload="elgreco.png,gantleBung.svg,gantleBungLater.svg"; */
 /* @pjs font="ComicSansMS.ttf"; */
 
 int unit = 100; //hehe unit
