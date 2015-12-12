@@ -157,7 +157,7 @@ void pierceThisFool() {
 
 void drawLabels() {
   // technologies of heterosexual coercion
-  float total = int(min(allConsumingEntropy, 6.66)*100) + 150;
+  float total = int(min(allConsumingEntropy, 6.66)*100) + 100;
   float innerTotal = 5;
   for (int i = 0; i < total; i++) {
     fill(0, 100, 100, 64);
@@ -179,11 +179,8 @@ PVector triPoint(int i, int total) {
   
   float between = (i - (j * seg))/seg;
   float x = centerX - 75 + lerp(points[j].x, points[(j+1) % 3].x, between); 
-  float y = centerY + 300 + lerp(points[j].y, points[(j+1) % 3].y, between); 
+  float y = centerY + 270 + lerp(points[j].y, points[(j+1) % 3].y, between); 
 
-  //float angle = TWO_PI * (1.9*i / total) + amtX;
-  //float x = centerX + cos(angle)*250 + random(allConsumingEntropy*5) - 100;
-  //float y = centerY + sin(angle)*250 + random(allConsumingEntropy*5);
   return new PVector(x, y);
 }
 
