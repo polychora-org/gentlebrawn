@@ -42,9 +42,8 @@ void setup() {
 
   shapeMode(CENTER);
   
-  textFont(createFont("ComicSansMS",24));
+  textFont(loadFont("ComicSansMS"),24);
 
-  
   sebastian = loadImage("elgreco.png");
   sebastianHeight = height;
   sebastianWidth = (500/642.0) * sebastianHeight;
