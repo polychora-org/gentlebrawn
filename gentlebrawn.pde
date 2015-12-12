@@ -70,7 +70,7 @@ void draw() {
   amtY = abs(mouseY - pmouseY)*0.5 + 1.0;
 
 
-  if (mousePressed && frameCount > 300) { // give it time
+  if (mousePressed && frameCount > 600) { // give it time
     transitioning = true;
   }
   
